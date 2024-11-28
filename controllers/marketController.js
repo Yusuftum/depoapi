@@ -1,6 +1,6 @@
 const Market = require('../models/Market');
 const SubWarehouse = require('../models/SubWarehouse');
-const Product = require('../models/Product'); // Product modelini ekledik
+const Product = require('../models/Product');
 
 // Market oluşturma
 exports.createMarket = async (req, res) => {
