@@ -23,7 +23,7 @@ app.use('/api/warehouses', warehouseRoutes);
 app.use('/api/products', productRoutes);
 app.use('/api/subwarehouses', subWarehouseRoutes);
 app.use('/api/markets', marketRoutes);
-app.use('/api/users', userRoutes); // Kullanıcı rotalarını burada ekledik
+app.use('/api/users', userRoutes);
 
 // Uygulamanın çalışacağı port
 const PORT = process.env.PORT || 8080;
