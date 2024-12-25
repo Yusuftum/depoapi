@@ -6,6 +6,6 @@ const { createSubWarehouse, getSubWarehouses, getSubWarehouseById, requestProduc
 router.post('/add', createSubWarehouse);
 router.get('/', getSubWarehouses);
 router.get('/:id', getSubWarehouseById);
-router.post('/:subWarehouseId/request-product', requestProductFromWarehouse); // Bu satırı ekledik
+router.post('/:subWarehouseId/request-product', requestProductFromWarehouse); 
 
 module.exports = router;
