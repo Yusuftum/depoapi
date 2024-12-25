@@ -17,7 +17,7 @@ const marketSchema = new mongoose.Schema({
             quantity: Number
         }
     ],
-    sales: [saleSchema]  // Satışları burada ekledik
+    sales: [saleSchema] 
 }, { timestamps: true });
 
 module.exports = mongoose.model('Market', marketSchema);
